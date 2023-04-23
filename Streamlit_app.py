@@ -1,5 +1,10 @@
 import numpy as np
 import pandas as pd
+import subprocess
+
+# Install scikit-learn
+subprocess.check_call(['pip', 'install', 'scikit-learn'])
+
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
