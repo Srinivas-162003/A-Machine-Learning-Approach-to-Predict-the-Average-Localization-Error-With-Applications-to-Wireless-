@@ -1,0 +1,6 @@
+imblearn==0.0
+smogn==0.1.2
+scikit-learn==1.2.2
+pandas==1.5.3
+streamlit==1.21.0
+numpy==1.24.2
