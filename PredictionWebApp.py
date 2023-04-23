@@ -3,8 +3,13 @@ import pickle
 import streamlit as st
 import sklearn
 
+import wget
 
-loaded_model = pickle.load(open("D:\\Deployment\\Trained_model.sav", 'rb'))
+url = 'https://github.com/Srinivas-162003/A-Machine-Learning-Approach-to-Predict-the-Average-Localization-Error-With-Applications-to-Wireless-/blob/main/Trained_model.sav?raw=true'
+filename = 'Trained_model.sav'
+wget.download(url, filename)
+
+loaded_model = pickle.load(open(filename, 'rb'))
 
 
 def Ale_prediction(input_data):
