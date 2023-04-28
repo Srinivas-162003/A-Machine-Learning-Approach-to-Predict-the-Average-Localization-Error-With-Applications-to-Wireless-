@@ -58,7 +58,7 @@ def main():
 
     Prediction = ''
 
-    if st.button("Predict error"):
+    if st.button("Predict ALE"):
         Prediction = Ale_prediction([anchor_ratio, trans_range, node_density, iterations])
         st.write('Predicted ALE:', Prediction)
 
