@@ -49,7 +49,7 @@ def main():
     st.markdown('<style>h1, h2, h3, h4, h5, h6, p {color: white !important;}</style>', unsafe_allow_html=True)
     st.markdown('<style>div.row-widget.stButton>button:first-child {background-color: red; color: white;}</style>', unsafe_allow_html=True)
 
-    st.title("Predicting  ALE In Wireless Sensor Networks Web app")
+    st.title("Predicting  Average Localization Error In Wireless Sensor Networks Web app")
 
     anchor_ratio = st.text_input("Enter the anchor_ratio: ")
     trans_range = st.text_input("Enter the trans_range: ")
@@ -60,7 +60,7 @@ def main():
 
     if st.button("Predict error"):
         Prediction = Ale_prediction([anchor_ratio, trans_range, node_density, iterations])
-        st.write('Predicted error:', Prediction)
+        st.write('Predicted ALE:', Prediction)
 
 
 if __name__ == '__main__':
