@@ -34,7 +34,7 @@ def get_img_as_base64(file):
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyqndvZ5-CcVr9fMdk01DPQBebYoB74hSPdA&usqp=CAU");
+background-image: url("https://st3.depositphotos.com/9999814/34552/i/450/…nication-technology-wireless-internet-network.jpg");
 background-size: 100%;
 background-position: top left;
 background-repeat: no-repeat;
