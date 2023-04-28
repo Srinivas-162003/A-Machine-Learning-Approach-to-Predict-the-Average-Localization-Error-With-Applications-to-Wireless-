@@ -46,6 +46,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
 def main():
+    st.markdown('<style>h1, h2, h3, h4, h5, h6, p {color: white !important;}</style>', unsafe_allow_html=True)
     st.title("Prediction of error in wireless sensor networks Web app")
 
     anchor_ratio = st.text_input("Enter the anchor_ratio: ")
